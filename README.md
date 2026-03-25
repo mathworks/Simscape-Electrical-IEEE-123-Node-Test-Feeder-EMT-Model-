@@ -2,7 +2,7 @@
 
 Version 1.0.0
 
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/Simscape-Electrical-IEEE-123-Node-Test-Feeder-EMT-Model)
 
 ## Introduction
 
