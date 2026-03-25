@@ -1,0 +1,41 @@
+component multi_controlled_current
+% Multi-phase Controlled Current Source
+% The block represents an ideal current source that is powerful enough
+% to maintain the specified current through it regardless of the voltage
+% across it. The output current is I = Is, where Is is the numerical
+% value presented at the physical signal port.
+
+% Copyright 2026 The MathWorks, Inc.
+
+parameters
+    noph = 3; % Number of phases
+end
+
+inputs
+    iT = {zeros(noph,1), 'A' }; % :bottom
+end
+
+variables
+    i = { value = {zeros(noph,1), 'A'}, priority = priority.low };
+    v = { value = {zeros(noph,1), 'V'}, priority = priority.low };
+end
+
+for kp=1:noph
+
+    nodes
+        p(kp) = foundation.electrical.electrical; % :top
+        n(kp) = foundation.electrical.electrical; % :bottom
+    end
+
+    branches
+        i(kp) : n(kp).i -> p(kp).i;
+    end
+
+    equations
+        v(kp) == n(kp).v - p(kp).v;
+        i(kp) == iT(kp);
+    end
+
+end
+
+end

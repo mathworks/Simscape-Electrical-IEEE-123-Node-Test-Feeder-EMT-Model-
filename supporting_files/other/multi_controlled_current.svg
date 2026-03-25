@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:d="http://www.mathworks.com/blockgraphics" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg" width="400" height="266" d:options="Foreground:PortStyled;Background:Transparent;StrokeScaling:PortStyled;StrokeScalingOnResize:NonScaling;LineExtension:On;Rotate:On;Resize:FitToBlock;Frame:Off;Clipping:None;PreAdjustStrokeWidth:Normalized;Port:Auto Majority;">
+	<g id="part_1" title="part_0" ie-ports="left:foundation-electrical-electrical,top:,right:output*foundation-electrical-electrical,bottom:">
+		<ellipse id="ellipse" class="ellipse" d:options="ClosedShapeFill:On;" cx="195.5" cy="133.83" rx="91.5" ry="85"/>
+		<ellipse id="ellipse_1" class="ellipse" d:options="ClosedShapeFill:On;" cx="196" cy="133" rx="73.5" ry="66.5"/>
+		<line id="line" class="line" x1="0" y1="133" x2="104" y2="133"/>
+		<line id="line_82" class="line" x1="329" y1="199.5" x2="400" y2="199.5"/>
+		<line id="line_116" class="line" x1="287" y1="133" x2="329" y2="133"/>
+		<line id="line_155" class="line" x1="329" y1="133" x2="329" y2="199.5"/>
+		<line id="line_52" class="line ie-marker" data-end-params="scale:1x1;flipped:off" style="marker-end:url(#triangleFilled_c2NhbGU6MXgxO2ZsaXBwZWQ6b2ZmOw==);stroke-dasharray:none;stroke-width: 0.5;" x1="241.5" y1="133" x2="158.5" y2="133"/>
+	</g>
+</svg>

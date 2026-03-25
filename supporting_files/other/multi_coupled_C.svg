@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:d="http://www.mathworks.com/blockgraphics" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg" width="400" height="266" d:options="Foreground:PortStyled;Background:Transparent;PreserveAspect:On;StrokeScaling:PortStyled;StrokeScalingOnResize:NonScaling;LineExtension:On;Rotate:On;Resize:FitToBlock;Frame:Off;PreAdjustStrokeWidth:Normalized;Port:Auto Majority;">
+	<g id="part_1" title="part_0" ie-ports="left:foundation-electrical-electrical,top:,right:foundation-electrical-electrical,bottom:">
+		<line id="line" class="line" x1="49" y1="133" x2="341" y2="133"/>
+		<g id="Capacitor">
+			<g id="Right">
+				<rect id="rect_33" class="rect" style="fill:#000000;" x="205.94" y="30.17" width="10.94" height="79" rx="0" ry="0"/>
+				<line id="line_45" class="line" x1="216.9" y1="69.67" x2="341" y2="69.67"/>
+			</g>
+			<g id="Left">
+				<rect id="rect_34" class="rect" style="fill:#000000;" x="173.1" y="30.17" width="10.94" height="79" rx="0" ry="0"/>
+				<line id="line_58" class="line" x1="173.1" y1="69.67" x2="49" y2="69.67"/>
+			</g>
+		</g>
+		<g id="Capacitor_7">
+			<g id="Right_3">
+				<rect id="rect" class="rect" style="fill:#000000;" x="205.94" y="159.17" width="10.94" height="79" rx="0" ry="0"/>
+				<line id="line_2" class="line" x1="216.9" y1="198.67" x2="341" y2="198.67"/>
+			</g>
+			<g id="Left_6">
+				<rect id="rect_4" class="rect" style="fill:#000000;" x="173.1" y="159.17" width="10.94" height="79" rx="0" ry="0"/>
+				<line id="line_5" class="line" x1="173.1" y1="198.67" x2="49" y2="198.67"/>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,41 @@
+component multi_coupled_C
+% Multi-Phase Coupled C
+% Use Simscape array connectors with dimensions matched to
+% the number of phases.
+%
+% Copyright 2026, The MathWorks, Inc.
+
+parameters
+    noph = 3; % Number of phases
+    C = {[1 0 0;0 1 0;0 0 1]*1e-6, 'F' }; % Capacitance matrix (F)
+end
+
+variables (Access = private)
+    i = { value = {zeros(noph,1), 'A'}, priority = priority.none }; % current
+    v = { value = {zeros(noph,1), 'V'}, priority = priority.none }; % voltage
+end
+
+for kp=1:noph
+
+    nodes
+        p(kp)=foundation.electrical.electrical; %p:left
+        n(kp)=foundation.electrical.electrical; %n:right
+    end
+
+    branches
+        i(kp) : p(kp).i -> n(kp).i;
+    end
+
+    equations
+        v(kp) == p(kp).v - n(kp).v;
+    end
+
+end
+
+equations
+    i == C*der(v);
+end
+
+end
+
+
